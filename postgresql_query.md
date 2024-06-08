@@ -2,6 +2,13 @@
 - [Joining](#joining)
 
 
+### Template
+```sql
+SELECT
+FROM
+WHERE
+```
+
 ### Joining
 - Inner Join via Using
 ```sql
