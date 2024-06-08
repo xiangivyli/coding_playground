@@ -1,3 +1,6 @@
+# Table of Contents
+- [Basics](#basics)
+- [Branch Management](#branch-management)
 ## Basics
 ### Initialise a new Git repository
 ```bash
