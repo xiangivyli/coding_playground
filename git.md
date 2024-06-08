@@ -14,6 +14,9 @@ git status
 ```bash
 git add .
 ```
+```bash
+git add <file-name>
+```
 ### Commit changes with a message
 ```bash
 git commit -m "commit message"
