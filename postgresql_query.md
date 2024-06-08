@@ -1,6 +1,7 @@
 ## Table of Contents
 - [Joining](#joining)
 - [Mathmatical Function](#mathematical-function)
+- [Pattern Match with Like](#pattern-match-with-like)
 
 
 ### Template
@@ -29,3 +30,12 @@ USING (id);
 ### Mathematical Function
 - `ABS()` absolute values
 - `log(b numeric, x numeric)` the logarithm to base `b`
+
+### Pattern Match with Like
+- `_` single character
+- `%` zero or more characters
+```sql
+SELECT first_name, last_name
+FROM names
+WHERE first_name LIKE '______%';
+```
