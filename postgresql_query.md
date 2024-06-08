@@ -29,3 +29,4 @@ USING (id);
 ### Manipulation
 - `ABS` absolute values
 - `LN()/LN(64)` logarithm to base 64
+- `CAST( AS DECIMAL(20, 10))` cast the result to a `DECIMAL`(total digits, decimal part)
