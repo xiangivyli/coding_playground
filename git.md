@@ -2,6 +2,7 @@
 - [Basics](#basics)
 - [Branch Management](#branch-management)
 - [Staging and Unstaging](#staging-and-unstaging)
+- [Merge Branches](#merge-branches)
 ## Basics
 ### Initialise a new Git repository
 ```bash
@@ -95,3 +96,28 @@ git reset --hard HEAD~1
 ```bash
 git rm <file-name>
 ```
+
+## Merge Branches
+### 1. On the target branch
+```bash
+git checkout <target-branch>
+```
+### 2. Update local repository
+```bash
+git pull origin <target-branch>
+```
+### 3. Merge the source branch into the target branch
+```bash
+git merge <source-branch>
+```
+### 4. Commit the merge
+```bash
+git commit
+```
+### 5. Push the merged changes to the remote repository
+```bash
+git push origin push
+```
+
+
+
