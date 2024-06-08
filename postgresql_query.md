@@ -1,5 +1,6 @@
 ## Table of Contents
 - [Joining](#joining)
+- [Manipulation](#manipulation)
 
 
 ### Template
@@ -25,4 +26,6 @@ FROM left_table
 INNER JOIN right_table
 USING (id);
 ```
-
+### Manipulation
+- `ABS` absolute values
+- `LN()/LN(64)` logarithm to base 64
