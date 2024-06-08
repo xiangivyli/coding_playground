@@ -1,6 +1,6 @@
 ## Table of Contents
 - [Joining](#joining)
-- [Manipulation](#manipulation)
+- [Mathmatical Function](#mathematical-function)
 
 
 ### Template
@@ -26,7 +26,6 @@ FROM left_table
 INNER JOIN right_table
 USING (id);
 ```
-### Manipulation
+### Mathematical Function
 - `ABS` absolute values
-- `LN()/LN(64)` logarithm to base 64
-- `CAST( AS DECIMAL(20, 10))` cast the result to a `DECIMAL`(total digits, decimal part)
+- `log(b numeric, x numeric)` the logarithm to base `b`
