@@ -4,9 +4,9 @@
 
 ### Template
 ```sql
-SELECT
+SELECT AS
 FROM
-WHERE
+WHERE  ;
 ```
 ```sql
 SELECT  AS 
