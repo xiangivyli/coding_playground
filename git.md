@@ -1,6 +1,7 @@
 # Table of Contents
 - [Basics](#basics)
 - [Branch Management](#branch-management)
+- [Staging and Unstaging](#staging-and-unstaging)
 ## Basics
 ### Initialise a new Git repository
 ```bash
@@ -62,5 +63,35 @@ git merge <branch-name>
 git branch -d <branch-name>
 ```
 
-
-
+## Staging and Unstaging
+### Remove files from the staging area (specified, all)
+```bash
+git reset <file-name>
+```
+```bash
+git reset 
+```
+### Undo the latest commit
+- The default option is `--mixed`
+- Unstages changes (moving them from the staging area to the working directory)
+- Keeps changes in the working directory
+```bash
+git reset HEAD~1
+```
+### Undo the last two commits and keep changes
+```bash
+git reset HEAD~2
+```
+### Reset commit with `--soft`, keep the changes staged but modify the commit message
+```bash
+git reset --soft HEAD~1
+git commit -m "New commit message"
+```
+### Reset commit with `--hard`, discard all changes even in the working directory
+```bash
+git reset --hard HEAD~1
+```
+### Remove a file from the working directory and the staging area
+```bash
+git rm <file-name>
+```
