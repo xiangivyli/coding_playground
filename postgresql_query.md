@@ -2,7 +2,7 @@
 - [Joining](#joining)
 - [Mathmatical Function](#mathematical-function)
 - [Pattern Match with Like](#pattern-match-with-like)
-
+- [Regular Expression](#regular-expression)
 
 ### Template
 ```sql
@@ -39,3 +39,7 @@ SELECT first_name, last_name
 FROM names
 WHERE first_name LIKE '______%';
 ```
+
+### Regular Expression
+#### `REGEXP_MATCHES()`
+- `([0-9]+)` one or more digits
