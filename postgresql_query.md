@@ -5,12 +5,12 @@
 
 ### Template
 ```sql
-SELECT AS
+SELECT 
 FROM
 WHERE  ;
 ```
 ```sql
-SELECT  AS 
+SELECT  
 FROM
 JOIN 
 ON  = ;
@@ -27,5 +27,5 @@ INNER JOIN right_table
 USING (id);
 ```
 ### Mathematical Function
-- `ABS` absolute values
+- `ABS()` absolute values
 - `log(b numeric, x numeric)` the logarithm to base `b`
