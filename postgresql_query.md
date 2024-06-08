@@ -8,6 +8,12 @@ SELECT
 FROM
 WHERE
 ```
+```sql
+SELECT  AS 
+FROM
+JOIN 
+ON  = ;
+```
 
 ### Joining
 - Inner Join via Using
