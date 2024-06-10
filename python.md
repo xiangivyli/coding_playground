@@ -1,5 +1,5 @@
 ## Table of Contents
--[Function Definition](#function-definition)
+- [Function Definition](#function-definition)
 
 ### Function Definition
 ```python
