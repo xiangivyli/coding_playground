@@ -54,3 +54,4 @@ WHERE first_name LIKE '______%';
 ### String Manipulation
 - `REPEAT(string, n)` repeats string multiple `n` times
 - `WHERE special_features @> ARRAY['Trailers', 'Deleted Scenes']` means contain an array, the column should be `text[]`
+- `::` changes data types, `(n^2)::integer alias`
