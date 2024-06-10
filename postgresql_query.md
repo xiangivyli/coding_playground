@@ -3,6 +3,7 @@
 - [Mathmatical Function](#mathematical-function)
 - [Pattern Match with Like](#pattern-match-with-like)
 - [Regular Expression](#regular-expression)
+- [String Manipulation](#string-manipulation)
 
 ### Template
 ```sql
@@ -49,3 +50,6 @@ WHERE first_name LIKE '______%';
 ### Regular Expression
 #### `REGEXP_MATCHES()`
 - `([0-9]+)` one or more digits
+
+### String Manipulation
+- `REPEAT(string, n)` repeats string multiple `n` times
