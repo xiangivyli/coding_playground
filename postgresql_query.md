@@ -16,7 +16,13 @@ FROM
 JOIN 
 ON  = ;
 ```
-
+Filter rows with another table
+```sql
+SELECT
+FROM 
+WHERE IN(SELECT FROM GROUP BY HAVING ))
+ORDER BY DESC
+```
 ### Joining
 - Inner Join via Using
 ```sql
