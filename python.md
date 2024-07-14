@@ -10,7 +10,7 @@ def count(string):
     # and the values are the counts of how many times each character appears in the string
     return {i: string.count(i) for i in string}
 ```
-### `join`
+#### `join`
 - `''.join(i * 2 for i in s)`put new characters together
 
 ### Dictionary Manipulation
