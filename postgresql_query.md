@@ -4,6 +4,7 @@
 - [Pattern Match with Like](#pattern-match-with-like)
 - [Regular Expression](#regular-expression)
 - [String Manipulation](#string-manipulation)
+- [Array Manipulation](#array-manipulation)
 
 ### Template
 ```sql
@@ -55,3 +56,12 @@ WHERE first_name LIKE '______%';
 - `REPEAT(string, n)` repeats string multiple `n` times
 - `WHERE special_features @> ARRAY['Trailers', 'Deleted Scenes']` means contain an array, the column should be `text[]`
 - `::` changes data types, `(n^2)::integer alias`
+
+### Array Manipulation
+- `string_to_array` can split string into array elements using supplied delimiter and optional null string
+example `string_to_array('xx~^~yy~^~zz', '~^~', 'yy')` result [xx,NULL,zz]
+- `unnest` expands an array to a set of rows
+example `unnest(array[1, 2] ` result 	
+                                         1
+                                         2
+                                        (2 rows)
