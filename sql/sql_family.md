@@ -1,0 +1,103 @@
+# SQL Family
+
+- [ ] Aggregate Functions
+- [ ] Array Functions
+- [ ] Combining
+- [ ] Data Type Formatting
+- [ ] Data and Time Functions
+- [ ] Distinct Clause
+- [ ] Group By Clause
+- [ ] LIMIT Condition
+- [ ] Mathematical Functions
+- [ ] Math Functions
+- [ ] Operators
+- [ ] Pattern Matching
+- [ ] Range Functions
+- [ ] Set Returning Functions
+- [ ] Sorting Rows
+- [ ] String Functions
+- [ ] Text Search Functions
+- [ ] Where Clause
+- [ ] Window Functions
+
+# SQL Functions
+
+- [ ] ^
+- [ ] ~
+- [ ] <
+- [ ] <=
+- [ ] >
+- [ ] >=
+- [ ] |
+- [ ] -
+- [ ] /
+- [ ] *
+- [ ] &
+- [ ] +'
+- [ ] abs()
+- [ ] acos()
+- [ ] array_agg()
+- [ ] array_length()
+- [ ] array_to_string()
+- [ ] avg()
+- [ ] btrim()
+- [ ] ceiling()
+- [ ] concat()
+- [ ] concat_ws()
+- [ ] corr()
+- [ ] cos()
+- [ ] count()
+- [ ] date_part()
+- [ ] date_trunc()
+- [ ] dense_rank()
+- [ ] distinct
+- [ ] except
+- [ ] extract()
+- [ ] first_value()
+- [ ] generate_series()
+- [ ] group by
+- [ ] join
+- [ ] lag()
+- [ ] lead()
+- [ ] left()
+- [ ] length()
+- [ ] limit
+- [ ] lower()
+- [ ] ltrim()
+- [ ] max()
+- [ ] min()
+- [ ] mode()
+- [ ] mode()
+- [ ] ntile()
+- [ ] order by
+- [ ] percentile_cont()
+- [ ] percent_rank()
+- [ ] power()
+- [ ] radians()
+- [ ] rank()
+- [ ] regexp_replace()
+- [ ] regexp_split_to_array()
+- [ ] replace()
+- [ ] right()
+- [ ] round()
+- [ ] row_number()
+- [ ] rtrim()
+- [ ] sin()
+- [ ] split_part()
+- [ ] sqrt()
+- [ ] string_agg()
+- [ ] string_to_array()
+- [ ] strpos()
+- [ ] substr()
+- [ ] substring()
+- [ ] sum()
+- [ ] to_char()
+- [ ] to_date()
+- [ ] to_timestamp()
+- [ ] to_tsvector()
+- [ ] trim()
+- [ ] trunc()
+- [ ] ts_stat()
+- [ ] union
+- [ ] unnest()
+- [ ] where
