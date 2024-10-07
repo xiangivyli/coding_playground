@@ -26,6 +26,15 @@ SPORTS = {
 def index():
     return render_template("index.html", sports=SPORTS)
 
+@app.route("/deregister", methods=["POST"])
+def deregister():
+
+    # Forget registrant
+    id = request.form.get("id")
+    if id:
+        db.execute("DELETE FROM registrants WHERE id = ?", id)
+    return redirect("/registrants")
+
 @app.route("/register", methods=["POST"])
 def register():
     # Validate submission
@@ -45,3 +54,4 @@ def register():
 def registrants():
     registrants = db.execute("SELECT * FROM registrants")
     return render_template("registrants.html", registrants=registrants)
+
